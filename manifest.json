@@ -1,0 +1,11 @@
+{
+  "id": "vault-race",
+  "name": "Vault Race",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "A link race through your own notes: get from the start note to the target note using links only. With timer, par, daily challenges and built-in tracks (fallacies, Europe, the Bible).",
+  "author": "JimmyCallSaul",
+  "authorUrl": "https://github.com/JimmyCallSaul",
+  "isDesktopOnly": false,
+  "fundingUrl": "https://buymeacoffee.com/jimmycallsaul"
+}
