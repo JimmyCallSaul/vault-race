@@ -55,6 +55,8 @@ Gemäß den Entwicklerrichtlinien von Obsidian steht hier alles Wichtige in einf
 - **Keine Internetverbindung.** Das Plugin selbst verbindet sich nie mit dem Internet. Es gibt keinen Server, kein Konto, keine Auswertung deines Verhaltens und keine Rangliste.
 - **Deine Notizen bleiben in deinem Vault.** Im Modus „Dein eigener Vault“ liest das Plugin Notiznamen und Links über das Verzeichnis von Obsidian und zeigt deine Notizen zum Lesen an. Es verändert, kopiert oder verschickt sie nicht.
 - **Was gespeichert wird:** deine Einstellungen und deine Ergebnisse, in der Datei `data.json` des Plugins in deinem Vault. Sonst nichts.
+- **Lesen deines Vaults:** Um das Rennen aufzubauen, listet das Plugin die Markdown-Notizen deines Vaults und ihre Links auf (die Prüfung von Obsidian nennt das „Vault Enumeration“). Andere Dateitypen werden nicht beachtet.
+- **Zwischenablage:** Das Plugin schreibt nur in die Zwischenablage, und nur wenn du auf „Ergebnis kopieren“ klickst. Es liest sie nie aus.
 - **Links, die deinen Browser öffnen:** die Quellenlinks unter den Wikipedia-Auszügen, der Link „Buy me a coffee“ und der Link „Fehler oder Idee melden“. Sie öffnen sich nur, wenn du sie anklickst.
 - **Spendenhinweis im Plugin:** Die Startseite und die Einstellungen enthalten einen kleinen festen Link „Buy me a coffee“ und einen Feedback-Link. Nach deinem fünften geschafften Rennen zeigt die Ergebnisseite einen Spendenhinweis – genau einmal, danach nie wieder. Es gibt keine Werbung von Dritten, und nichts wird aus dem Internet geladen.
 - **Dateigröße:** `main.js` ist rund 5 MB groß, weil der Bibeltext und die Europa-Texte enthalten sind. So funktioniert alles ohne Internet.

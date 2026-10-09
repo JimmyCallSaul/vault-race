@@ -19,16 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-The MIT License above covers the program code of Vault Race and the texts
-written for it (the fallacy notes and the key-fact sentences of the Europe
-track).
-
-It does NOT cover the third-party texts that are bundled inside main.js.
-These keep their own terms, see THIRD-PARTY-CONTENT.md:
-
-- Wikipedia excerpts: CC BY-SA 4.0
-- OpenBible.info cross-references: CC BY
-- World English Bible: public domain

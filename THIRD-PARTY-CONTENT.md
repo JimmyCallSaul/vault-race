@@ -2,6 +2,8 @@
 
 Vault Race bundles a few texts so that you can play without preparing anything. They are stored inside `main.js`; nothing is downloaded while you play.
 
+The MIT License in [LICENSE](LICENSE) covers the program code of Vault Race and the texts written for it. It does **not** cover the third-party texts listed below; these keep their own terms.
+
 ## Wikipedia (track “Cities, countries, rivers”)
 
 - Excerpts from 157 articles of the German Wikipedia and 157 articles of the English Wikipedia.

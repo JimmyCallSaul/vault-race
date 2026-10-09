@@ -53,6 +53,8 @@ Following the Obsidian developer policies, here is everything relevant in plain 
 - **No network use.** The plugin itself never connects to the internet. There is no server, no account, no telemetry, no leaderboard.
 - **Your notes stay in your vault.** In the own-vault mode the plugin reads note names and links through Obsidian's own index and shows your notes for reading. It does not change, copy or send them.
 - **What is saved:** your settings and your daily results, in the plugin's own `data.json` inside your vault. Nothing else.
+- **Reading your vault:** to build the race, the plugin lists the Markdown notes of your vault and their links (this is what Obsidian's review reports as “vault enumeration”). Other file types are ignored.
+- **Clipboard:** the plugin only writes to the clipboard, and only when you click “Copy result”. It never reads it.
 - **Links that open your browser:** the source links below the Wikipedia excerpts, the “Buy me a coffee” link and the “Report a bug” link. They only open when you click them.
 - **Support note inside the plugin:** the start screen and the settings contain a small static “Buy me a coffee” link and a feedback link. After your 5th finished race, the result screen shows one support note – exactly once, never again. There are no ads from third parties and nothing is loaded from the internet.
 - **File size:** `main.js` is about 5 MB because the Bible text and the Europe texts are bundled, so that everything works offline.
